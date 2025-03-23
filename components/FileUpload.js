@@ -90,7 +90,9 @@ const FileUpload = () => {
           >
             📥 Download File
           </button>
-        </div>
+      <p className="mt-2 text-gray-600 text-sm max-w-xs text-center">
+        You can upload this file to any AI tool and ask questions about the content of the PDF you uploaded.
+      </p>   </div>
       )}
 <div className="mt-10 bg-white p-8 rounded-2xl shadow-xl w-full max-w-lg text-center border border-gray-200">
   <h2 className="text-xl font-extrabold text-gray-900">Convert Other File Types to PDF</h2>
