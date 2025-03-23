@@ -17,7 +17,6 @@ export async function POST(req) {
     if (!apiKey) {
       return NextResponse.json({ error: "Missing API Key" }, { status: 500 });
     }
-
     const client = new Mistral({ apiKey });
 
     const fileName = file.name || "uploaded_file.pdf";
