@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
 <Head>
-        <title>OCR PDF Converter - Extract Text from PDFs</title>
+        <title>OCR PDF Converter  Extract Text from PDFs</title>
 </Head>
     <main>
       <FileUpload />
