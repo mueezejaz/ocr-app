@@ -50,7 +50,7 @@ export async function POST(req) {
     });
 
     // Store metadata in Upstash Redis
-    await redis.set(`ocrLog:${fileNameWithoutExt}`, JSON.stringify({
+    await redis.set(`ocrLog:${userIp}`, JSON.stringify({
       fileName,
       fileSize,
       userIp,
